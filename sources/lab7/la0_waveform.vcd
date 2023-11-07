@@ -1,0 +1,42 @@
+#0 $dumpon
+$date today $end
+$timescale 1 ns $end
+$scope module top $end
+$var wire 4 0 ain $end
+$var wire 4 1 bin $end
+$var wire 4 2 ain_vio $end
+$var wire 4 3 bin_vio $end
+$var wire 4 4 result $end
+$var wire 1 5 select $end
+$var wire 1 6 axi_awvalid $end
+$var wire 1 7 axi_awready $end
+$var wire 1 8 axi_wready $end
+$var wire 1 9 axi_wvalid $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0000 0
+b0000 1
+b0000 2
+b0000 3
+b0000 4
+05
+06
+07
+08
+09
+$end
+#512
+15
+#1023
+b0000 0
+b0000 1
+b0000 2
+b0000 3
+b0000 4
+15
+06
+07
+08
+09
