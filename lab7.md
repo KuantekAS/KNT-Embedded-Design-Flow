@@ -4,7 +4,7 @@ After completing this lab, you will be able to:
     
 - Add a VIO core in the design
 - Use a VIO core to inject stimulus to the design and monitor the response
-- Add an ILA core in Vivado
+- Add an ILA core in Efinity
 - Perform hardware debugging using the Open Debugger
 
 
